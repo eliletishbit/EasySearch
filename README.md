@@ -1,3 +1,27 @@
+
+COMMMENT EXECUTER LE PROJET UR  NIPOORTE UEL ENVIRONNEMENT
+#readme
+# Cloner le projet
+git clone https://github.com/TON-UTILISATEUR-GITHUB/NOM-DU-REPO.git
+
+# Aller dans le dossier du projet
+cd NOM-DU-REPO
+
+# Démarrer Docker (construction et lancement des conteneurs)
+docker-compose up -d --build
+
+# Vérifier que Laravel tourne bien
+docker ps
+
+# Entrer dans le conteneur Laravel
+docker exec -it laravel-app bash
+
+# Vérifier les logs si problème
+docker logs laravel-app
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
